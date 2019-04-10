@@ -1,0 +1,94 @@
+.G-container
+  padding-top: 40px
+  min-height: 400px
+.G-main
+  margin-top: 70px
+  min-height: 400px
+.G-main-b
+  margin: 70px 0 0 201px
+  min-height: 400px
+.G-card
+  margin-bottom: 6px
+  max-width: 1000px
+  background: #fff
+  border: solid 1px $color-line-b
+  border-radius: 6px
+  box-shadow: 0 0 3px rgba(0,0,0,0.07)
+  .card-title
+    height: 40px
+    line-height: 40px
+    background: #f6f8f8
+    padding-left: 20px
+    font-size: 14px
+    border-bottom: solid 1px $color-line-b
+    border-top-left-radius: 6px
+    border-top-right-radius: 6px
+.G-left-nav
+  position: fixed
+  top: 70px
+  bottom: 0px
+  left: 0
+  padding-top: 20px
+  width: 180px
+  background: #1c2b36
+  border-right: solid 1px $color-line-b
+  font-size: 14px
+  color: #fff
+  .lv1-title
+    padding-left: 20px
+    height: 40px
+    line-height: 40px
+  .lv2
+    display: block
+    padding-left: 20px
+    height: 40px
+    line-height: 40px
+    color: #869fb1
+    cursor: pointer
+    font-size: 12px
+    &:hover
+      color: #fff
+    &.actived
+      background: #131e26
+      color: #fff
+    .G-ficon
+      display: inline-block
+      margin-right: 6px
+      width: 20px
+      vertical-align: -2px
+.G-table-a
+  width: 100%
+  thead td
+    font-weight: bold
+  th, td
+    padding: 0 16px
+    height: 36px
+    border-bottom: 1px solid #eaeff0
+    line-height: 36px
+  tbody
+    tr:nth-child(odd)
+      background: #fafbfc
+.G-list-a
+  margin: 0 auto
+  .top-con
+    padding: 16px
+    border-bottom: solid 1px $color-line-b
+    .opt-box
+      .select-number
+        margin-right: 16px
+        line-height: 34px
+        font-size: 14px
+        vertical-align: middle
+      .G-btn
+        margin-left: 8px
+        width: 100px
+      .G-ficon
+        margin-right: 6px
+        font-size: 12px
+  .pages-con
+    padding: 16px
+    text-align: center
+.slide-enter-active, .slide-leave-active
+  transition: all 0.3s;
+.slide-enter, .slide-leave-to
+  transform: translate3d(100%, 0, 0);
