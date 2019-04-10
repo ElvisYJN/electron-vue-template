@@ -2,12 +2,13 @@
 
 ## Project setup
 ```
-npm install
+npm install  开内网
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run serve  内外网无所谓
+electron:serve  开外网
 ```
 
 ### Compiles and minifies for production
